@@ -72,7 +72,7 @@ export default function projects() {
                     This is my portfolio, React, TypeScript an Tailwind CSS.
                   </p>
                   <a
-                    href="https://shotiko.site"
+                    href="https://portfolio-lt4fnx6zu-shotikobeboshvilis-projects.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-block text-center text-[#FF6F61] font-semibold hover:text-[#ff0a0a] transition-all duration-200"

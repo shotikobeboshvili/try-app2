@@ -29,8 +29,8 @@ export default function education() {
           After that, I took a course from Coursera "ReactJS and Tailwind CSS Fundamentals".
         </p>
 
-        <div className="grid justify-center max-xl:gap-y-4">
-          <div className="flex gap-8">
+        <div className="grid justify-center max-xl:gap-y-4 max-[32rem]:text-center ">
+          <div className="flex gap-8 max-[32rem]:grid">
             <div className="text-[#74e291]">Jun. 2024 - Dec. 2024</div>
             <div>
               <h3 className="text-xl text-[#eff396]">Front-end Development <br /> Nexts Step Academy</h3>
@@ -38,7 +38,7 @@ export default function education() {
             </div>
           </div>
 
-          <div className="flex gap-8">
+          <div className="flex gap-8 max-[32rem]:grid">
             <div className="text-[#74e291]">Nov. 2024 - Dec. 2024</div>
             <div>
               <h3 className="text-xl text-[#eff396]">ReactJS and Tailwind CSS <br /> Fundamentals "Packt"</h3>
@@ -60,12 +60,15 @@ export default function education() {
         </h2>
 
         <div className="flex flex-row gap-6 m-4 max-xl:justify-center max-[32rem]:grid max-xl:pt-4">
-          <div className="flex border-2 h-54 w-74 justify-center items-center overflow-hidden max-md:w-54 max-md:h-32 rounded-lg hover:scale-105 transform transition-all duration-300">
-            <img src={Certificate} alt="" className="w-64 rotate-6 hover:w-72 max-md:w-44 max-md:hover:w-48 transform transition-all duration-300" />
+          <div className="flex border-2  justify-center items-center overflow-hidden max-md:w-54 max-md:h-32 max-[32rem]:w-64 max-[32rem]:h-40 max-[20rem]:w-50 max-[20rem]:h-32
+           rounded-lg hover:scale-105 transform transition-all duration-300">
+            <img src={Certificate} alt="" className="w-64 rotate-6 hover:w-72 max-md:w-44 max-md:hover:w-48 max-[32rem]:w-56 max-[32rem]:hover:w-60 max-[32rem]:hover:h-44
+              max-[32rem]:h-40 max-[20rem]:w-42 max-[20rem]:h-28 max-[20rem]:hover:w-46 max-[20rem]:hover:h-32  transform transition-all duration-300" />
           </div>
 
-          <div className="flex border-2 h-54 w-74 justify-center items-center overflow-hidden max-md:w-54 max-md:h-32 rounded-lg hover:scale-105 transform transition-all duration-300">
-            <img src={Certificate2} alt="" className="-rotate-85 w-48  hover:w-50 max-md:w-44 max-md:hover:w-48 transform transition-all duration-300" />
+          <div className="flex border-2 h-54 w-74 justify-center items-center overflow-hidden max-md:w-54 max-md:h-32 max-[32rem]:w-64 max-[32rem]:h-40 max-[20rem]:w-50 max-[20rem]:h-32
+           rounded-lg hover:scale-105 transform transition-all duration-300">
+            <img src={Certificate2} alt="" className="-rotate-85 w-48  hover:w-50 max-md:w-36 max-md:hover:w-4 transform transition-all duration-300" />
           </div>
         </div>
       </motion.div>

@@ -29,9 +29,10 @@ export default function home() {
           </h1>
         </div>
         <div>
-          <p className="max-w-3xl text-2xl text-[#f0f2f5] opacity-90 max-md:text-xl max-[27rem]:text-[18px] leading-relaxed">I am a beginner developer, I know HTML, CSS and basic JavaScript.
-             I am also learning other programming languages ​​such as php, python.
-             My goal is to become a fullstack developer</p>
+          <p className="max-w-3xl text-2xl text-[#f0f2f5] opacity-90 max-md:text-xl max-[27rem]:text-[18px] leading-relaxed">
+            I am Shotiko, I am a dedicated Junior Front-End Developer with expertise in HTML, CSS, JavaScript, and React.js.
+            I specialize in creating responsive, animated, and visually stunning websites using HTML, CSS, JavaScript, and React with TypeScript,
+             as well as Tailwind CSS for modern design.</p>
         </div>
 
         <div>

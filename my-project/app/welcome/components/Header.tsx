@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import close from "./assets/close-fill.png";
 import apps from "./assets/apps-2-fill.png";
+import { FaTimes } from "react-icons/fa";
 
 export default function header() {
 
@@ -16,7 +17,7 @@ export default function header() {
                 className="fixed w-full flex justify-center p-4 bg-[rgba(0,0,0,0.3)] backdrop-blur-md shadow-md z-50"
               >
                 <nav className="grid grid-flow-col items-center justify-between w-[1200px] pt-2 pb-2 max-xl:justify-between max-xl:pr-8">
-                  <a href="#Home" className="text-3xl font-bold text-[#74e291] hover:text-white transition">
+                  <a href="#Home" className="text-3xl font-bold text-[#74e291] hover:text-[#eff396] transition">
                     Shotiko
                   </a>
         

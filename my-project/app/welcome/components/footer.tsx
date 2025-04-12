@@ -57,13 +57,13 @@ export default function footer() {
       viewport={{ once: false }}
     >
       <a
-        href="mailto:youremail@example.com"
+        href="mailto:beboshvilishotiko61@gmail.com"
         className="text-lg hover:underline"
       >
         Email
       </a>
       <a
-        href="tel:+123456789"
+        href="tel:+995571360404"
         className="text-lg hover:underline"
       >
         Call
